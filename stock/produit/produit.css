@@ -1,0 +1,179 @@
+::-webkit-scrollbar {
+    display: none;
+}
+
+.head-title {
+    position: relative;
+    top: 450px;
+    left: 150px;
+}
+
+html {
+    height: 900px;
+}
+
+html,
+body {
+    background: var(--light);
+}
+
+.navbar {
+    position: relative;
+    left: 280px;
+    bottom: 80px;
+    height: 55px;
+    background-color: #fff;
+    overflow: hidden;
+}
+
+.marg {
+    padding-left: 50px;
+    display: flex;
+    padding-right: 20px;
+}
+
+.marg h3 {
+    position: relative;
+    top: 10px;
+    left: 15px;
+}
+
+.links {
+    position: relative;
+    left: 300px;
+    bottom: 60px;
+}
+
+.links a {
+    text-decoration: none;
+    color: black;
+    position: relative;
+    left: 850px;
+    bottom: 20px;
+}
+
+.bg {
+    background-color: #fff;
+    height: 800px;
+    width: 100%;
+    position: relative;
+    bottom: 60px;
+    left: 500px;
+}
+
+.list-prod {
+    position: relative;
+    left: 350px;
+    top: 100px;
+}
+
+.content-tab {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    width: 900px;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.content-tab thead tr {
+    background-color: #eee;
+}
+
+.content-tab th,
+.content-tab td {
+    padding: 12px 15px;
+}
+
+.content-tab tbody tr {
+    border-bottom: 1px solid black;
+}
+
+.content-tab tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.form {
+    position: relative;
+    left: 350px;
+    top: 250px;
+}
+
+#btn1,
+#btn2 {
+    position: relative;
+    bottom: 210px;
+    z-index: 1;
+    left: 20px;
+}
+
+.nav {
+    background-color: #fff;
+    position: relative;
+    top: 0px;
+    height: 65px;
+}
+
+.heade {
+    position: relative;
+    left: 350px;
+    display: flex;
+}
+
+.heade h3 {
+    position: relative;
+    top: 30px;
+    font-size: 18px;
+    right: 10px;
+}
+
+.row {
+    position: relative;
+    bottom: 80px;
+    display: flex;
+    right: 35px;
+}
+
+.lks {
+    display: flex;
+    position: relative;
+    bottom: 35px;
+    left: 780px;
+}
+
+.btnn {
+    padding: 10px;
+    margin-bottom: 3px;
+    font-size: 15px;
+    position: relative;
+    left: 18px;
+}
+
+.btnn {
+    cursor: pointer;
+    height: 0px;
+    width: 20px;
+    border-radius: 0.5rem;
+    background: rgb(216, 16, 16);
+    color: white;
+}
+
+.btnn:hover,
+.btnn1:hover {
+    color: #fff;
+}
+
+.btnn1 {
+    padding: 10px;
+    margin-bottom: 3px;
+    font-size: 15px;
+    position: relative;
+    left: 10px;
+    cursor: pointer;
+    height: 0px;
+    width: 20px;
+    border-radius: 0.5rem;
+    background: green;
+    color: white;
+}

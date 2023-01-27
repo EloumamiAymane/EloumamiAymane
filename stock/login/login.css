@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #CEE5D0;
+    background-image: url("../img/stock.jpg");
+}
+
+.header {
+    position: relative;
+    width: 250px;
+    margin: auto;
+    top: 200px;
+}
+
+.title h2 {
+    font-size: 30px;
+}
+
+.content {
+    padding: 20px;
+    position: relative;
+    width: 400px;
+    height: 250px;
+    margin: auto;
+    top: 250px;
+    background-color: #fff;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+}
